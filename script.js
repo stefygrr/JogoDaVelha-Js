@@ -12,7 +12,6 @@ function drop(event){
     event.target.appendChild(document.getElementById(data));
 }
 
-function resetGame(){
-    document.querySelector(".reset").addEventListener("click", resetGame);
+function resetarPagina() {
     location.reload();
 }
